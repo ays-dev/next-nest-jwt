@@ -1,4 +1,4 @@
-## Modern application using Next.js, TailwindCSS, NestJS, TypeORM, Passport and JWT token
+## Modern application using Next.js, TailwindCSS, NestJS, TypeORM, Passport and JWT tokens
 
 ![ScreenShot](./screencapture.png)
 ![ScreenShot Login](./screencapture-login.png)
