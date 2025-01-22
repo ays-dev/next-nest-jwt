@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import React, { FC, useEffect, useState } from 'react';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
-import { useProtectedPage } from '../hooks/UseProtectedPage';
+import { useProtectedPage } from '../hooks/useProtectedPage';
 
 const ProfilePage: FC = () => {
   const [userEmail, setUserEmail] = useState<string>('');

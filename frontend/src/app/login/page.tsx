@@ -3,7 +3,7 @@
 import React, { FC, useState } from 'react';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
-import { useUnprotectedPage } from '../hooks/UseUnprotectedPage';
+import { useUnprotectedPage } from '../hooks/useUnprotectedPage';
 
 const LoginPage: FC = () => {
   const [email, setEmail] = useState('');

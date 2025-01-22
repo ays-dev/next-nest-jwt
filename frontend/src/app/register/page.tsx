@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import React, { FC, useState } from 'react';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
-import { useUnprotectedPage } from '../hooks/UseUnprotectedPage';
+import { useUnprotectedPage } from '../hooks/useUnprotectedPage';
 
 const RegisterPage: FC = () => {
   const [email, setEmail] = useState('');
